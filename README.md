@@ -23,6 +23,17 @@ Non-motorized vehicle, Pedestrian, Pickup truck, Single unit truck, Work van, Ba
 * Download the dataset from [here](http://podoce.dinf.usherbrooke.ca/static/dataset/MIO-TCD-Classification-Code.tar).
 * Unzip the images and corresponding labels.
 
+## Custom dataset
+
+You just need to copy your folder with the name represeting the label ex: cars to dataset/train/ and other classes you need.
+
+-dataset/
+	-train/
+		-cars/
+			image1.jpg
+		-background/
+			image1.jpg
+
 ## Training
 The training details of SqueezeNet for Vehicle Classification:
 * SGD with momentum is used to train the CNN.
