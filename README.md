@@ -27,12 +27,18 @@ Non-motorized vehicle, Pedestrian, Pickup truck, Single unit truck, Work van, Ba
 
 You just need to copy your folder with the name represeting the label ex: cars to dataset/train/ and other classes you need.
 
--dataset/
-	-train/
-		-cars/
-			image1.jpg
-		-background/
-			image1.jpg
+'''bash
+.
+├── dataset
+│   ├── test
+│   │   └── frame601.jpg
+│   └── train
+│       ├── background
+│       │   ├── img_frame420_0_0.png
+│       │   ├── img_frame420_0_128.png
+│       │   ├── img_frame420_0_192.png
+
+'''
 
 ## Training
 The training details of SqueezeNet for Vehicle Classification:
